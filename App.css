@@ -94,6 +94,14 @@ header {
   display: none;
 }
 
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
 .App {
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
@@ -107,7 +115,6 @@ header {
 .column {
   flex-basis: 30%;
   padding: 10px;
-  background-color: blue;
   border-radius: 5px;
 }
 
@@ -157,4 +164,5 @@ h2 {
 .add-task input {
   margin-right: 5px;
 }
+
 
